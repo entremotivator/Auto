@@ -1390,7 +1390,8 @@ with tab1:
         if recent_implementations:
             for name, date in recent_implementations:
                 st.write(f"✅ {name[:30]}...")
-                st.caption(f"Completed: {date.strftime('%Y-%m-% 
+                st.caption(f"Completed: {date.strftime('%Y-%m-%d')}")
+ 
                 st.write(f"✅ {name[:30]}...")
                 st.caption(f"Completed: {date.strftime('%Y-%m-%d')}")
         else:
